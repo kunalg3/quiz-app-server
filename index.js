@@ -14,7 +14,7 @@ const PORT=process.env.PORT||8000
 
 app.use(express.json())
 app.use(cors({
-  origin:'https://quiz-app-client-self.vercel.app/',
+  origin:'https://quiz-app-client-self.vercel.app',
   credentials:true
 }))
 
